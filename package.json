@@ -1,0 +1,29 @@
+{
+  "name": "stavvy-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayaPrakashPerumalla/stavvy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayaPrakashPerumalla/stavvy/issues"
+  },
+  "homepage": "https://github.com/JayaPrakashPerumalla/stavvy#readme",
+  "dependencies": {
+    "cypress": "^9.2.0"
+  }
+  ,
+  "devDependencies": {
+    "cypress-xpath": "^1.6.2"
+  }
+}
+
+
