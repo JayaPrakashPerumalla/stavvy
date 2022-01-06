@@ -5,21 +5,21 @@ export class Login {
         cy.visit(selectors.url);
     }
 
-    loginToApplication()
+    loginToApplication(userName, Password)
     {
-        this.enterUserName();
-        this.enterPassword();
+        this.enterUserName(userName);
+        this.enterPassword(Password);
         this.clickOnLogin();
     }
 
-    enterUserName()
+    enterUserName(userName)
     {
-        cy.get(selectors.usernameTxtbx).type("saikiran.cheera@qualitlabs.com");
+        cy.get(selectors.usernameTxtbx).type(userName);
     }
 
-    enterPassword()
+    enterPassword(Password)
     {
-        cy.get(selectors.passwordTxtbx).type("p@19051997");
+        cy.get(selectors.passwordTxtbx).type(Password);
     }
 
     clickOnLogin()
